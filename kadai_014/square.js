@@ -1,8 +1,8 @@
 const squared = (amount) => {
-     console.log(amount**2);
+     return amount**2;
   }
 
-  squared(10);
+  console.log(squared(10));
 
   
 
